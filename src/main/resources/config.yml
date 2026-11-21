@@ -1,0 +1,28 @@
+# Większość tych rzeczy ustawisz w grze: /kolo panel
+ustawienia:
+  czas-animacji: 8      # sekundy kręcenia
+  obroty: 3             # minimalna liczba pełnych obrotów
+  rozmiar: 4.5          # średnica koła w blokach (podstawka dochodzi pod spód)
+  idle: OBROT           # OBROT = koło cały czas powoli się obraca, GLOW = tylko miga podświetlenie przedmiotu przy wskaźniku, BRAK
+  idle-okres: 40        # (OBROT) ile sekund trwa pełny obrót
+  idle-miganie: 30      # (GLOW) co ile ticków podświetlenie włącza się/wyłącza
+  dzwiek: true
+  ogloszenie: true
+teksty:
+  nad-kolem: "&e&lKOŁO FORTUNY\n&7PPM z bonem: &a&lZAKRĘĆ &8| &7PPM + Shift: &6Dropy"
+  bon-nazwa: "&6&lBon na Koło Fortuny"
+  bon-opis:
+    - "&7Kliknij PPM na kole fortuny,"
+    - "&7aby je zakręcić!"
+  brak-bonu: "&cPotrzebujesz bonu, aby zakręcić kołem!"
+  kreci-sie: "&cKoło już się kręci, poczekaj chwilę!"
+  wygrana: "&6{gracz} &7wygrał &e{nagroda} &7na kole fortuny!"
+pan:
+  rozmiar: 0.9          # skala Pana Szczęściarza (1.0 = ok. 2.7 bloku wysokości)
+  obrot: 0              # 0 albo 180 - jeśli Pan stoi tyłem, zmień na 180
+  teksty:
+    - "Szczęście sprzyja odważnym!"
+    - "Ten bon aż się prosi, żeby go zakręcić!"
+    - "Koniczyna na szczęście? Mam ich cały cylinder!"
+    - "Dziś jest TWÓJ dzień. Czuję to w wąsach!"
+    - "Kręć kołem, a fortuna się uśmiechnie!"
